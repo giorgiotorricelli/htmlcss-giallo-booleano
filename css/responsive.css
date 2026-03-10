@@ -1,5 +1,7 @@
 /* Soluzione qui */
 
+/* Modalità Mobile*/
+
 @media screen and (min-width: 576px) {
     .social-networks button {
         flex-grow: 1;
@@ -9,5 +11,39 @@
     .clearfix > img {
         float: left;
         margin-right: 10px;
+    }
+}
+
+/* Modalità Tablet */
+
+@media screen and (min-width: 769px) {
+    #topbar {
+        justify-content: start;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    .recipe-name::after {
+        content: "(Dolce Tradizionale)";
+    }
+
+    .recipe-name {
+        font-size: 2em;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes ul li {
+        flex-basis: 33%;
+        flex-shrink: 0;
+    }
+
+    .ads {
+        display: block;
     }
 }
