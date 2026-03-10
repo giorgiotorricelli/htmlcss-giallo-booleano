@@ -1,1 +1,13 @@
 /* Soluzione qui */
+
+@media screen and (min-width: 576px) {
+    .social-networks button {
+        flex-grow: 1;
+        transition: all 0.8s;
+    }
+
+    .clearfix > img {
+        float: left;
+        margin-right: 10px;
+    }
+}
